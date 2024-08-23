@@ -90,7 +90,7 @@ This will download the code and instructions.
 │ │ └── RNN_Model.ipynb      # Recurrent Neural Network model
 │ ├── Plots/                 # Plots generated during ML analysis
 │ ├── Reduced_Data/          # Processed and reduced data files for ML
-│ └── src/                   # Source code for machine learning analysis
+│ ├── src/                   # Source code for machine learning analysis
 │ └── README.md              # Detailed README for this project
 └── Time_Series_Analysis/            # Folder for time series analysis
 ├── Data/                            # Data files related to time series analysis
