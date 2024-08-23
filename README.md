@@ -30,6 +30,7 @@ You can check project updates here : [Log 2](https://github.com/GabrielWendell/C
 
 
 ### 3. Quantum Machine Learning
+This project focuses on developing Quantum Machine Learning models to enhance flood prediction accuracy, with an initial emphasis on implementing Quantum K-Nearest Neighbors (QKNN) algorithms. By leveraging quantum computing's potential to process complex data patterns more efficiently than classical methods, the project aims to improve the predictive capabilities of traditional flood prediction models. The study involves analyzing large datasets of hydrological and meteorological parameters, applying QKNN to classify flood events, and comparing the performance with classical KNN models. The ultimate goal is to demonstrate the advantages of quantum approaches in real-world environmental forecasting applications.
 
 ### References
 > [Refs. for QML...]()
@@ -111,14 +112,16 @@ This repository is distributed under the [GNU v.3.0 License](https://github.com/
 
 ### Contact
 For any inquiries related to this repository or ongoing research, please contact:
-- **Project Members :**
+- **Project Members**
 > - [Gabriel Wendell Celestino Rocha](http://lattes.cnpq.br/0049111339899544)
 > - [Alberto Bezerra de Palhares Júnior](http://lattes.cnpq.br/2817599222252879)
 > - [Joab Morais Varela](http://lattes.cnpq.br/0545685854714310)
 > - [Eliardo Guimaraes da Costa](https://scholar.google.com/citations?user=CJRHpW8AAAAJ&hl=en&oi=ao)
 > - [Rafael Chaves Souto Araújo](https://scholar.google.com/citations?user=HhCom8wAAAAJ&hl=en&oi=sra)
-- **GitHub :**
+- **GitHub :octocat:**
 > - [GabrielWendell](https://github.com/GabrielWendell)
+> - [albsjr](https://github.com/albsjr)
+> - [joabmv](https://github.com/joabmv)
 > - [eliardocosta](https://github.com/eliardocosta)
 
 ---
