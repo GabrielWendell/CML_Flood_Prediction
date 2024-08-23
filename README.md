@@ -83,17 +83,14 @@ This will download the code and instructions.
 │ ├── GillSans-Light.ttf             # Custom font used in plots
 │ ├── src/                           # Source code for data preprocessing
 │ └── README.md                      # Detailed README for this project
-├── ML_Analysis/             # Folder for machine learning analysis
-│ ├── Data/                  # Data files related to machine learning analysis
+├── CML/                     # Folder for classical machine learning analysis
 │ ├── Notebooks/             # Jupyter Notebooks for ML models
 │ │ ├── KNN_Model.ipynb      # K-Nearest Neighbors model
 │ │ └── RNN_Model.ipynb      # Recurrent Neural Network model
 │ ├── Plots/                 # Plots generated during ML analysis
-│ ├── Reduced_Data/          # Processed and reduced data files for ML
 │ ├── src/                   # Source code for machine learning analysis
 │ └── README.md              # Detailed README for this project
-└── Time_Series_Analysis/            # Folder for time series analysis
-├── Data/                            # Data files related to time series analysis
+└── Predictive_Statistics/           # Folder for predictive statistics analysis
 ├── Notebooks/                       # Jupyter Notebooks for time series models
 │ ├── Correlation_Models.ipynb       # Correlation model analysis
 │ ├── Fourier_Analysis.ipynb         # Fourier analysis
