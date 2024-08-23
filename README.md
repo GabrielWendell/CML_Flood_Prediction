@@ -73,21 +73,34 @@ This will download the code and instructions.
 
 ### Repository Structure
 ```bash
-├── Project_1/                      # Folder for Project 1
-│   ├── data/                       # Data files related to Project 1
-│   ├── notebooks/                  # Jupyter Notebooks for Project 1
-│   ├── src/                        # Python scripts for Project 1
-│   ├── Plots/                      # Plots related to Project 1
-│   ├── logs/                       # Logs from the analysis
-│   ├── README.md                   # Detailed README for Project 1
-├── Project_2/                     # Folder for Project 2
-│   ├── data/                      # Data files related to Project 2
-│   ├── notebooks/                 # Jupyter Notebooks for Project 2
-│   ├── Plots/                     # Plots related to Project 2
-│   ├── src/                       # Python scripts for Project 2
-│   ├── logs/                      # Logs from the analysis
-│   ├── README.md                  # Detailed README for Project 2
-└── README.md                      # General README (this file)
+├── Data_preprocessing/              # Folder for data preprocessing tasks
+│ ├── Data/                          # Raw data files related to data preprocessing
+│ ├── Plots/                         # Plots generated during data preprocessing
+│ ├── Reduced_Data/                  # Processed and reduced data files
+│ ├── Data_Reduction.ipynb           # Jupyter Notebook for data reduction
+│ ├── CutiveMono-Regular.ttf         # Custom font used in plots
+│ ├── GillSans-Light.ttf             # Custom font used in plots
+│ └── src/                           # Source code for data preprocessing
+├── ML_Analysis/             # Folder for machine learning analysis
+│ ├── Data/                  # Data files related to machine learning analysis
+│ ├── Notebooks/             # Jupyter Notebooks for ML models
+│ │ ├── KNN_Model.ipynb      # K-Nearest Neighbors model
+│ │ └── RNN_Model.ipynb      # Recurrent Neural Network model
+│ ├── Plots/                 # Plots generated during ML analysis
+│ ├── Reduced_Data/          # Processed and reduced data files for ML
+│ └── src/                   # Source code for machine learning analysis
+└── Time_Series_Analysis/            # Folder for time series analysis
+├── Data/                            # Data files related to time series analysis
+├── Notebooks/                       # Jupyter Notebooks for time series models
+│ ├── Correlation_Models.ipynb       # Correlation model analysis
+│ ├── Fourier_Analysis.ipynb         # Fourier analysis
+│ └── ARIMA_SARIMA.ipynb             # ARIMA and SARIMA models
+├── src/                             # Source code for time series analysis
+├── CutiveMono-Regular.ttf           # Custom font used in plots
+└── GillSans-Light.ttf               # Custom font used in plots
+├── .gitignore                 # Git ignore file
+├── LICENSE                    # License file
+├── README.md                  # General README (this file)
 ```
 
 ### Contributing
