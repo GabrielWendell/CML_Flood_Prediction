@@ -81,7 +81,7 @@ This will download the code and instructions.
 │ ├── Data_Reduction.ipynb           # Jupyter Notebook for data reduction
 │ ├── CutiveMono-Regular.ttf         # Custom font used in plots
 │ ├── GillSans-Light.ttf             # Custom font used in plots
-│ └── src/                           # Source code for data preprocessing
+│ ├── src/                           # Source code for data preprocessing
 │ └── README.md                      # Detailed README for this project
 ├── ML_Analysis/             # Folder for machine learning analysis
 │ ├── Data/                  # Data files related to machine learning analysis
@@ -97,12 +97,11 @@ This will download the code and instructions.
 ├── Notebooks/                       # Jupyter Notebooks for time series models
 │ ├── Correlation_Models.ipynb       # Correlation model analysis
 │ ├── Fourier_Analysis.ipynb         # Fourier analysis
-│ └── ARIMA_SARIMA.ipynb             # ARIMA and SARIMA models
+│ ├── ARIMA_SARIMA.ipynb             # ARIMA and SARIMA models
 │ ├── CutiveMono-Regular.ttf         # Custom font used in plots
-│ └── GillSans-Light.ttf             # Custom font used in plots
-├── src/                             # Source code for time series analysis
-│ └── README.md                      # Detailed README for this project
-├── CutiveMono-Regular.ttf           # Custom font used in plots
+│ ├── GillSans-Light.ttf             # Custom font used in plots
+│ ├── README.md                      # Detailed README for this project
+│ └── src/                           # Source code for time series analysis
 ├── .gitignore                 # Git ignore file
 ├── LICENSE                    # License file
 ├── README.md                  # General README (this file)
