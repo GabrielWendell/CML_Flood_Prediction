@@ -104,7 +104,7 @@ This will download the code and instructions.
 ├── README.md                  # General README (this file)
 ```
 
-The processed and treated data can be found in the [`Reduced_Data`](https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main/Data_Preprocessing/Reduced_Data) folder
+- The processed and treated data can be found in the [`Reduced_Data`](https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main/Data_Preprocessing/Reduced_Data) folder
 
 ### Contributing
 We welcome contributions from the academic and scientific communities. If you are interested in collaborating or have any suggestions for improving the projects, please refer to the individual project folders for specific guidelines or reach out via the contact information provided below.
