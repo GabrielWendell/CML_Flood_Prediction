@@ -66,7 +66,7 @@ sudo yum install git
 Once done, from a new terminal create a directory dedicated for this tool with the name `QML_Flood_Prediction`, and from it, clone this github files and intall the necessary components:
 ```
 git clone https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main
-cd Cepheids_Projects
+cd QML_Flood_Prediction
 pip install -r requirements.txt
 ```
 This will download the code and instructions.
