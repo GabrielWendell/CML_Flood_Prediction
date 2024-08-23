@@ -1,4 +1,4 @@
-# QML Research in Flood Forecasting
+# QML Research in Flood Forecasting 🖥️⚛️
 ## Overview
 Welcome to the QML Research in Flood Forecasting Repository, a comprehensive collection of ongoing projects dedicated to developing Predictive Statistics, Machine Learning, Quantum Machine Learning algorithms in flood forecasting.
 
@@ -100,11 +100,14 @@ This repository is distributed under the [GNU v.3.0 License](https://github.com/
 For any inquiries related to this repository or ongoing research, please contact:
 - **Project Members :**
 > - [Gabriel Wendell Celestino Rocha](http://lattes.cnpq.br/0049111339899544)
-> - [Leonardo Almeida de Andrade](http://lattes.cnpq.br/7812463045514059)
+> - [Alberto Bezerra de Palhares Júnior](http://lattes.cnpq.br/2817599222252879)
+> - [Joab Morais Varela](http://lattes.cnpq.br/0545685854714310)
+> - [Eliardo Guimaraes da Costa](https://scholar.google.com/citations?user=CJRHpW8AAAAJ&hl=en&oi=ao)
+> - [Rafael Chaves Souto Araújo](https://scholar.google.com/citations?user=HhCom8wAAAAJ&hl=en&oi=sra)
 - **GitHub :**
 > - [GabrielWendell](https://github.com/GabrielWendell)
-> - [TitanUFRN](https://github.com/titanufrn)
+> - [eliardocosta](https://github.com/eliardocosta)
 
 ---
 
-### Have fun 😄
+### Let's code 💻
