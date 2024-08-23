@@ -63,7 +63,7 @@ sudo apt-get install git
 sudo yum install git
 ```
 
-Once done, from a new terminal create a directory dedicated for this tool with the name `Cepheids_Projects`, and from it, clone this github files and intall the necessary components:
+Once done, from a new terminal create a directory dedicated for this tool with the name `QML_Flood_Prediction`, and from it, clone this github files and intall the necessary components:
 ```
 git clone https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main
 cd Cepheids_Projects
@@ -110,7 +110,7 @@ The processed and treated data can be found in the [`Reduced_Data`](https://gith
 We welcome contributions from the academic and scientific communities. If you are interested in collaborating or have any suggestions for improving the projects, please refer to the individual project folders for specific guidelines or reach out via the contact information provided below.
 
 ### License
-This repository is distributed under the [GNU v.3.0 License](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/LICENSE). Please refer to the license file for more information.
+This repository is distributed under the [GNU v.3.0 License](https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/LICENSE). Please refer to the license file for more information.
 
 ### Contact
 For any inquiries related to this repository or ongoing research, please contact:
