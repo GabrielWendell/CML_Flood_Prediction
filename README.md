@@ -26,7 +26,7 @@ This project consists of two parts: the first part focuses on the application of
 #### References
 > [Sherstinsky, A., 2020. *Physica D: Nonlinear Phenomena*, **404**, p.132306.](https://www.sciencedirect.com/science/article/pii/S0167278919305974?casa_token=MfYQf8rsvmMAAAAA:pXVCO-ry4R0Oj_vLaJ541uyI6dcbQ7VTsAyc_elwYzqZDtFzWBBMB3nUsCbmeyuwNXnYjnyk8yQt)
 
-You can check project updates here : [Log 2](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
+You can check project updates here : [CML Log](https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main/CML)
 
 
 ### 3. Quantum Machine Learning
