@@ -60,10 +60,9 @@ As of the latest update, the project is in the **development phase of PGM and LM
 
 ## Next Steps
 The upcoming steps in the project include:
-1. Increase the number of time steps (`time_steps = 50`) and evaluate the model again ;
-2. Implement a GRU type network, evaluate the model and compare it with the LSTM network ;
-3. Improve the aesthetics of all graphics and make them publishable quality ;
-4. Create a log using `loguru` with the metrics of each model.
+1. Implement a GRU type network, evaluate the model and compare it with the LSTM network ;
+2. Improve the aesthetics of all graphics and make them publishable quality ;
+3. Create a log using `loguru` with the metrics of each model.
 
 ## Future Ideas
 Here are some potential ideas to explore in the future:
