@@ -69,6 +69,7 @@ The upcoming steps in the project include:
 Here are some potential ideas to explore in the future:
 - **Idea 1:** Reduce the training set in order to determine the minimum size that this set should have in order to preserve good model accuracy.
 - **Idea 2:** Vary the size of the training and testing set and check the minimum size required for both sets in order to obtain a model with good accuracy.
+- **Idea 3:** Implement a regression model with KNN using a weighted distance metric to try to take into account extreme events in the `WATER-LEVEL` and `DISCHARGE` features.
 ---
 
 ## Bibliographic References
