@@ -49,7 +49,7 @@ gantt
 
 ## Current Stage and Results
 As of the latest update, the project is in the **development phase of PGM and LMM to obtain the $(P-L)$ relation for a specific galaxy**. The latest results are as follows:
-- **Key Findings :** `Scipy` linear fit is not very good but it serves as a good start!
+- **Key Findings :** Considering the current training and testing sets (1990 - 2022 || 2023), the RNN network with LSTM has proven to be extremely efficient!
 - **Performance Metrics :** $a=-7.2781\pm 0.0323\quad,\quad b = -3.1175 \pm 0.1174$
 - **Last results obtained :**
 <p align = "center">
@@ -60,18 +60,16 @@ As of the latest update, the project is in the **development phase of PGM and LM
 
 ## Next Steps
 The upcoming steps in the project include:
-1. Development of PGM and LLM for a specific galaxy ;
-2. Run `emcee` for the linear model of the relationship $(P-L)$ ;
-3. Repeat the procedure for multiple galaxies.
+1. Increase the number of time steps (`time_steps = 50`) and evaluate the model again ;
+2. Implement a GRU type network, evaluate the model and compare it with the LSTM network ;
+3. Improve the aesthetics of all graphics and make them publishable quality ;
+4. Create a log using `loguru` with the metrics of each model.
 
 ## Future Ideas
 Here are some potential ideas to explore in the future:
-- **Idea 1:** Use other samplers within MCMC such as HMC.
-- **Idea 2:** Check if the `R11` dataset has received updates.
-
+- **Idea 1:** Reduce the training set in order to determine the minimum size that this set should have in order to preserve good model accuracy.
+- **Idea 2:** Vary the size of the training and testing set and check the minimum size required for both sets in order to obtain a model with good accuracy.
 ---
 
 ## Bibliographic References
-> - Riess paper: [Riess et al. 2011, *The Astrophysical Journal*, **730**(2), p.119.](https://iopscience.iop.org/article/10.1088/0004-637X/730/2/119/meta)
-> - PGM Book: [Koller, D. and Friedman, N., 2009. *Probabilistic graphical models: principles and techniques*. MIT press.](http://mcb111.org/w06/KollerFriedman.pdf)
-> - `emcee` paper: [Foreman-Mackey, et al., 2013, *Publications of the Astronomical Society of the Pacific*, **125**(925), p.306.](https://iopscience.iop.org/article/10.1086/670067/meta)
+> - RNN & LSTM paper: [Sherstinsky, A., 2020. Fundamentals of recurrent neural network (RNN) and long short-term memory (LSTM) network. *Physica D: Nonlinear Phenomena*, **404**, p.132306.](https://www.sciencedirect.com/science/article/pii/S0167278919305974?casa_token=MfYQf8rsvmMAAAAA:pXVCO-ry4R0Oj_vLaJ541uyI6dcbQ7VTsAyc_elwYzqZDtFzWBBMB3nUsCbmeyuwNXnYjnyk8yQt)
