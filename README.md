@@ -17,7 +17,7 @@ This project explores the use of predictive statistics for flood forecasting, wi
 #### References
 > [Ho, S.L. & Xie, M., 1998. *Computers & industrial engineering*, **35**(1-2), pp.213-216.](https://www.sciencedirect.com/science/article/abs/pii/S0360835298000667)
 
-You can check project updates here : [Log 1](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/README.md)
+You can check project updates here : [PS Log](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/README.md)
 
 
 ### 2. Classical Machine Learning
@@ -26,7 +26,7 @@ This project consists of two parts: the first part focuses on the application of
 #### References
 > [Sherstinsky, A., 2020. *Physica D: Nonlinear Phenomena*, **404**, p.132306.](https://www.sciencedirect.com/science/article/pii/S0167278919305974?casa_token=MfYQf8rsvmMAAAAA:pXVCO-ry4R0Oj_vLaJ541uyI6dcbQ7VTsAyc_elwYzqZDtFzWBBMB3nUsCbmeyuwNXnYjnyk8yQt)
 
-You can check project updates here : [CML Log](https://github.com/GabrielWendell/QML_Flood_Prediction/tree/main/CML)
+You can check project updates here : [CML Log](https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/README.md)
 
 
 ### 3. Quantum Machine Learning
