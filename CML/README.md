@@ -66,7 +66,7 @@ As of the latest update, the project is in the **development phase of PGM and LM
 - **Last results obtained :**
 <p align = "center">
   <img src = "https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/Plots/KNN_Model_WATER-LEVEL.png" alt = "KNN-R Model Evaluation for WL" width = "500" height = "300"/>
-  <img src = "https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/Plots/KNN_Model_DISCHARGE.png" alt = "KNN-R Model Evaluation for DIS" width = "300"/>
+  <img src = "https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/Plots/KNN_Model_DISCHARGE.png" alt = "KNN-R Model Evaluation for DIS" width = "500" height = "300"/>
 </p>
 
 
