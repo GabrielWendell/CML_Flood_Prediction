@@ -23,13 +23,12 @@ gantt
     title Project Flow
     dateFormat  YYYY-MM-DD
     section Project Development
-    R11 preprocessing              :done, 2024-08-05, 2024-08-07
-    Dataframe master creation      :done, 2024-08-05, 2024-08-07
-    Plot Analysis                  :done, 2024-08-07, 2024-08-09
-    Histogram Analysis             :done, 2024-08-08, 2024-08-09
-    log[O/H] range fits            :done, 2024-08-08, 2024-08-10
-    Linear fit                     :done, 2024-08-11, 2024-08-14
-    PGM + LMM implementation       :active, 2024-08-21
+    KNN-C Model Implem.            :done, 2024-06-18, 2024-06-20
+    KNN-R Model Implem. for WL     :done, 2024-07-15, 2024-07-17
+    KNN-R Model Implem. for DIS    :done, 2024-07-19, 2024-07-20
+    KNN-R Metrics Optmization      :done, 2024-07-22, 2024-08-06
+    RNN-LSTM Model Implem.         :done, 2024-08-15, 2024-08-22
+    GRU Model Implem.              :active, 2024-08-27
     Future Steps       : 2024-08-31, 2024-09-10
 ```
 
@@ -37,24 +36,37 @@ gantt
 
 | Date | Task | Progress | Notebook |
 | --- | --- | --- | --- |
-| 2024-08-05 | Preprocessing of data from Riess et al. 2011: `R11` dataset | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-05 | Master dataframe preparation: calculation of `d_L`, `M`, `Merr` and `logP` | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-06 | Visual analysis of dataframe information: $\log_{10}\text{P}\times M$, $\log_{10}\left[\text{O/H}\right]\times M$ (NGC Number) | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |	
-| 2024-08-06 | Analysis of histograms of rotation period frequencies and metallicity by galaxy | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-08 | Linear fit for metallicity for different metallicity ranges (Leonardo's idea) | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-14 | Linear Fit for the Period of the entire dataset. | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
-| 2024-08-21 | Construction of a PGM model to fit the $(P-L)$ relation for a specific galaxy. | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
+| 2024-06-20 | Implementation of a classification model using KNN | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
+| 2024-07-17 | Implementation of a regression model using KNN to predict the `WATER-LEVEL` feature | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
+| 2024-07-20 | Implementation of a regression model using KNN to predict the `DISCHARGE` feature | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |	
+| 2024-08-06 | Obtaining and optimizing metrics (MAE, RMSE, $R^{2}$) for KNN-R | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
+| 2024-08-22 | Implementation of the RNN-LSTM network for predicting the `WATER-LEVEL` feature | Done! | [Cepheids Data](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_Data.ipynb) |
+| 2024-08-27 | Implementation of the RNN-GRU network for predicting the `WATER-LEVEL` feature | Loading... | [One Galaxy](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Cepheids_One_Galaxy.ipynb) |
 
 
 
 ## Current Stage and Results
 As of the latest update, the project is in the **development phase of PGM and LMM to obtain the $(P-L)$ relation for a specific galaxy**. The latest results are as follows:
-- **Key Findings :** Considering the current training and testing sets (1990 - 2022 || 2023), the RNN network with LSTM has proven to be extremely efficient!
-- **Performance Metrics :** $a=-7.2781\pm 0.0323\quad,\quad b = -3.1175 \pm 0.1174$
+- **Key Findings :** Considering the current training and testing sets (1990 - 2022 || 2023), we obtain the following findings
+> 1. The KNN-R model proved to be the most effective for the analyzed river station (Kluserbrücke);
+> 2. The `WATER-LEVEL` feature generates better metrics, but cannot capture extreme events;
+> 3. The `DISCHARGE` feature generates slightly worse metrics, but it can capture extreme events better;
+> 4. The RNN-LSTM networks have proven to be extremely efficient in predicting the `WATER-LEVEL` feature.
+- **Performance Metrics :**
+> - For KNN-R:
+>> 1. MAE = 1.2543240547945207
+>> 2. RMSE = 2.142504935315682
+>> 3. R^2 = 0.9846306950425482
+>> 4. Ad-R^2 = 0.984502972286669
+
+> - For RNN-LSTM (preliminary results):
+>> 1. MAE = 4.143263212929309
+>> 2. RMSE = 7.268499642502091
+>> 3. R^2 = 0.8275455406841612
 - **Last results obtained :**
 <p align = "center">
-  <img src = "https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Plots/Linear_fit-All_data.png" alt = "Linear fit for all data" width = "500" height = "300"/>
-  <img src = "https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_1/Plots/logO_H_fit_intervals.png" alt = "Linear fit for all Metalicity intervals" width = "300"/>
+  <img src = "https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/Plots/KNN_Model_WATER-LEVEL.png" alt = "KNN-R Model Evaluation for WL" width = "500" height = "300"/>
+  <img src = "https://github.com/GabrielWendell/QML_Flood_Prediction/blob/main/CML/Plots/KNN_Model_DISCHARGE.png" alt = "KNN-R Model Evaluation for DIS" width = "300"/>
 </p>
 
 
