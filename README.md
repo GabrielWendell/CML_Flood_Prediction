@@ -35,7 +35,7 @@ This project focuses on developing Quantum Machine Learning models to enhance fl
 ### References
 > [Refs. for QML...]()
 
-You can check project updates here : [Log 3](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
+You can check project updates here : [QML Log](https://github.com/GabrielWendell/Cepheids_Projects/blob/main/Project_2/log_project2.md)
 
 
 ---
