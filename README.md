@@ -1,6 +1,6 @@
-# QML Research in Flood Forecasting 🖥️⚛️
+# CML Research in Flood Forecasting 🖥️⚛️
 ## Overview
-Welcome to the QML Research in Flood Forecasting Repository, a comprehensive collection of ongoing projects dedicated to developing Predictive Statistics, Machine Learning, Quantum Machine Learning algorithms in flood forecasting.
+Welcome to the CML Research in Flood Forecasting Repository, a comprehensive collection of ongoing projects dedicated to developing Predictive Statistics, Machine Learning, Quantum Machine Learning algorithms in flood forecasting.
 
 ### Motivation
 Natural disasters, particularly floods, pose a significant threat to lives, infrastructure, and economies worldwide. The increasing frequency and intensity of such events, driven by climate change and urbanization, underscore the urgent need for more accurate and reliable forecasting methods. Developing advanced techniques in predictive statistics, machine learning, and quantum machine learning offers the potential to better anticipate these events, providing critical time for preparation and response. By improving the precision of flood predictions, we can mitigate the devastating impacts of these disasters, safeguard communities, and enhance the effectiveness of early warning systems, ultimately contributing to greater resilience in the face of natural hazards.
