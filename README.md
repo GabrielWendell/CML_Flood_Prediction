@@ -75,9 +75,7 @@ This will download the code and instructions.
 ### Repository Structure
 ```bash
 ├── Data_preprocessing/              # Folder for data preprocessing tasks
-│ ├── Data/                          # Raw data files related to data preprocessing
 │ ├── Plots/                         # Plots generated during data preprocessing
-│ ├── Reduced_Data/                  # Processed and reduced data files
 │ ├── Data_Reduction.ipynb           # Jupyter Notebook for data reduction
 │ ├── CutiveMono-Regular.ttf         # Custom font used in plots
 │ ├── GillSans-Light.ttf             # Custom font used in plots
